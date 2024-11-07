@@ -14,7 +14,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String sayHello(Model model) {
-        model.addAttribute("message", "Hello, World ddd!");
+        model.addAttribute("message", "Hello, World eee!");
         return "hello";  // 返回 hello.html 视图
     }
 }
